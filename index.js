@@ -13,18 +13,13 @@ const urls = {
   twitter: `https://twitter.com/${usernames.twitter}`
 }
 
-/*const arrayItens = document.querySelectorAll(".link")
+const arrayItens = document.querySelectorAll(".link")
 arrayItens.forEach(a => {
   a.addEventListener("click", () => {
     let attribute = a.getAttribute("id")
     a.href = `${urls[attribute]}`
   })
-})*/
-
-
-
-
-
+})
 
 function getGitInfo() {
   const url = `https://api.github.com/users/${usernames.github}`
