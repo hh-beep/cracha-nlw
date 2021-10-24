@@ -88,27 +88,19 @@ body {
   .container{
     width: 30%;
   }
-  .content {
-    width: 100%;
-  }
 }
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 900px) and (max-width: 1000px) {
   .container {
     width: 37%;
   }
-  .content{ width: 100%;}
 }
 @media (min-width: 650px) and (max-width: 800px) {
   .container {width: 47%}
-  .content{ width: 100%;}
 }
 @media (min-width: 500px) and (max-width: 650px) {
   .container { width: 58% }
-  .content {width: 100%;}
 }
 @media (max-width: 500px) {
 
-  .container{ width: 75.5%; }
-  .content {width: 100%;}
-
+.container{ width: 75.5%; }
 }
